@@ -31,10 +31,7 @@ class HomeController: UIViewController {
             presentAlert("FogoController", messageText: "The Server IP is required to proceed.", buttonText: "Dismiss")
             return false
         }
-        
-        
         return true
-        
     }
     
     func updateIP() {
